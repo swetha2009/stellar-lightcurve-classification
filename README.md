@@ -1,15 +1,22 @@
 # Multi-Class Classification of Stellar Time-Series Lightcurves
 
 ## 📌 Project Overview
-This repository contains the data pipeline and machine learning models . The goal of this project is to automate the classification of messy, noisy astronomical time-series data (lightcurves) into distinct variable star categories using Python.
+This repository contains our team's solution for the **2026 BRICS Astronomy Working Group Hackathon**. The objective is to design a machine learning pipeline capable of classifying messy, noisy astronomical time-series data (lightcurves) into distinct variable star categories (e.g., RR Lyrae, Eclipsing Binaries, Cepheids).
+
+By analyzing variations in stellar flux over time, this pipeline automates pattern recognition in massive astronomical datasets—a framework directly transferable to radar, sonar, and geospatial time-series tracking.
 
 ## 🛠️ Tech Stack
 * **Language:** Python
 * **Domain Libraries:** Astropy, Lightkurve
 * **Machine Learning:** Scikit-Learn
-* **Data Tools:** Pandas, NumPy, Matplotlib
+* **Data & Visualization:** Pandas, NumPy, Matplotlib
 
 ## 📂 Repository Structure
-* `data/`: Raw and preprocessed lightcurve datasets.
-* `notebooks/`: Jupyter notebooks detailing exploratory data analysis (EDA) and baseline model training.
-* `src/`: Modular Python scripts for data cleaning and feature engineering pipelines.
+* `data/`: Contains sample datasets and extracted features.
+* `notebooks/`: Jupyter notebooks tracking exploratory data analysis (EDA) and model prototyping.
+* `src/`: Production-ready, modular Python scripts for data cleaning and classification.
+
+## 🚀 How to Run
+1. Clone the repository: `git clone <your-repo-link>`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the exploration notebook in `notebooks/`.
